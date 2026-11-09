@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "fastgpt",
+      "type": "com.hd.client.FastGptClient",
+      "sourceType": "com.hd.client.FastGptClient"
+    },
+    {
+      "name": "jdbc-pools",
+      "type": "com.hd.config.JdbcPoolProperties",
+      "sourceType": "com.hd.config.JdbcPoolProperties"
+    },
+    {
+      "name": "oss",
+      "type": "com.hd.config.OssProperties",
+      "sourceType": "com.hd.config.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc-pools.pools",
+      "type": "java.util.Map<java.lang.String,com.hd.config.JdbcPoolProperties$PoolConfig>",
+      "sourceType": "com.hd.config.JdbcPoolProperties"
+    },
+    {
+      "name": "oss.buckets",
+      "type": "java.util.Map<java.lang.String,com.hd.config.OssProperties$BucketConfig>",
+      "sourceType": "com.hd.config.OssProperties"
+    },
+    {
+      "name": "oss.default-bucket-key",
+      "type": "java.lang.String",
+      "sourceType": "com.hd.config.OssProperties"
+    }
+  ],
+  "hints": []
+}
